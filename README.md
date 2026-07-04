@@ -94,19 +94,30 @@
 
 <div class="panel" id="panel-faq">
   <div class="card">
-    <h2>iOS 常見問題排解</h2>
-    <div class="faq-q">Q1: 無法與註冊電腦連線？</div><div class="faq-a">確保設備與註冊電腦在同一網段(Wi-Fi)，避免使用 VPN。檢查 IP 是否在 192.168.2.x 網段。</div>
-    <div class="faq-q">Q2: 憑證無法信任或顯示？</div><div class="faq-a">請確保 iOS 為最新版本。若仍失敗，請備份資料後「清除所有內容與設定」重新安裝。</div>
-    <div class="faq-q">Q3-Q4: 無法下載/出現雲朵圖示？</div><div class="faq-a">檢查 Safari 快取、確認儲存空間是否足夠，或重置網路設定後重試。</div>
-    <div class="faq-q">Q5: App 無法進行註冊？</div><div class="faq-a">請確認已授予區域網路權限，並檢查註冊電腦是否將該設備設為「註銷」狀態。</div>
-    <div class="faq-q">Q6-Q8: 下載頁面沒跳出/描述檔安裝失敗？</div><div class="faq-a">安裝時效 90 秒內需完成，超時請先解鎖恢復相機再試。關閉 Safari「僅限 HTTPS」警告。</div>
-    <div class="faq-q">Q9-Q12: 藍牙自動開啟？</div><div class="faq-a">請務必從「設定 > 藍牙」中手動關閉，不要只從控制中心中斷。</div>
-    <div class="faq-q">Q13-Q16: 無法解鎖/閃退/UUID 錯誤？</div><div class="faq-a">解鎖需開啟 MDM 定位權限「永遠」。閃退請覆蓋更新(勿刪舊版)，UUID 錯誤需清理儲存空間。</div>
+    <h2>Android 常見問題</h2>
+    <div class="faq-item"><div class="faq-q">Q1: 解鎖時出現「請開啟模擬位置視窗」？</div><div class="faq-a">請至「開發人員選項」將「選取模擬位置應用程式」設定為 MDM。</div></div>
+    <div class="faq-item"><div class="faq-q">Q2: 開啟銀行 App 出現安全問題？</div><div class="faq-a">這是「USB 偵錯」造成，請至開發人員選項關閉該功能。</div></div>
+    <div class="faq-item"><div class="faq-q">Q3: 下拉選單熱點快捷鍵消失？</div><div class="faq-a">此為上鎖狀態下對特定功能的限制。</div></div>
+    <div class="faq-item"><div class="faq-q">Q4: 時間任務解鎖出現 SSL 錯誤？</div><div class="faq-a">檢查網路環境，關閉 VPN 或廣告攔截軟體。</div></div>
+    <div class="faq-item"><div class="faq-q">Q5-Q6: 三星功能無法使用？</div><div class="faq-a">上鎖狀態限制部分三星原生功能與即時翻譯。</div></div>
 
-    <h2 style="margin-top:20px;">Android 常見問題排解</h2>
-    <div class="faq-q">Q1: 出現模擬位置視窗？</div><div class="faq-a">在開發人員選項中，將「選取模擬位置應用程式」設定為 MDM。</div>
-    <div class="faq-q">Q2: 銀行 App 安全問題？</div><div class="faq-a">關閉開發人員選項中的「USB 偵錯」功能即可。</div>
-    <div class="faq-q">Q3-Q6: 其他功能異常？</div><div class="faq-a">上鎖狀態會限制三星安全資料夾及熱點快捷鍵。若遇 SSL 錯誤請關閉 VPN 或廣告軟體。</div>
+    <h2 style="margin-top:20px;">iOS 常見問題</h2>
+    <div class="faq-item"><div class="faq-q">Q1: 無法與註冊電腦連線？</div><div class="faq-a">確認設備與註冊電腦在同一 Wi-Fi 網段，且 IP 為 192.168.2.x。</div></div>
+    <div class="faq-item"><div class="faq-q">Q2: 憑證無法信任或顯示？</div><div class="faq-a">確認 iOS 為最新版，或嘗試備份後清除內容與設定重新安裝。</div></div>
+    <div class="faq-item"><div class="faq-q">Q3: 無法下載 App？</div><div class="faq-a">檢查 Safari 快取、儲存空間是否充足。</div></div>
+    <div class="faq-item"><div class="faq-q">Q4: 下載 App 出現雲朵圖示？</div><div class="faq-a">代表 App 被卸載，請重新點擊安裝即可。</div></div>
+    <div class="faq-item"><div class="faq-q">Q5: App 無法註冊？</div><div class="faq-a">確認已授予區域網路權限，且註冊電腦未將設備設為註銷。</div></div>
+    <div class="faq-item"><div class="faq-q">Q6: 操作上鎖/解鎖無跳出視窗？</div><div class="faq-a">請恢復相機功能，並確認 Safari 正常運作。</div></div>
+    <div class="faq-item"><div class="faq-q">Q7: Safari 顯示 HTTPS 錯誤？</div><div class="faq-a">請依照提示關閉 Safari「僅限 HTTPS」的安全性警告。</div></div>
+    <div class="faq-item"><div class="faq-q">Q8: 描述檔安裝失敗？</div><div class="faq-a">安裝時效 90 秒，超時請重新執行。</div></div>
+    <div class="faq-item"><div class="faq-q">Q9: 藍牙自動開啟告警？</div><div class="faq-a">MDM 上鎖機制會自動檢查藍牙狀態，請勿從控制中心中斷。</div></div>
+    <div class="faq-item"><div class="faq-q">Q10: App 發生閃退？</div><div class="faq-a">請直接覆蓋安裝新版，勿刪除舊版。</div></div>
+    <div class="faq-item"><div class="faq-q">Q11: 飛航模式後藍牙開啟？</div><div class="faq-a">請在開啟飛航前先從「設定」內關閉藍牙。</div></div>
+    <div class="faq-item"><div class="faq-q">Q12: 重開機後藍牙自動開啟？</div><div class="faq-a">這是 iOS 預設行為，請務必從「設定」頁面手動關閉。</div></div>
+    <div class="faq-item"><div class="faq-q">Q13: 無法解鎖？</div><div class="faq-a">確認 MDM 位置權限設為「永遠」且開啟「精確位置」。</div></div>
+    <div class="faq-item"><div class="faq-q">Q14: 上鎖狀態更新 iOS？</div><div class="faq-a">強烈不建議，易導致系統錯亂。</div></div>
+    <div class="faq-item"><div class="faq-q">Q15: UUID 不是唯一？</div><div class="faq-a">請檢查並清理手機儲存空間。</div></div>
+    <div class="faq-item"><div class="faq-q">Q16: MDM 閃退排查？</div><div class="faq-a">請檢查企業級憑證信任狀態，確認憑證未過期。</div></div>
   </div>
 </div>
 
