@@ -112,9 +112,9 @@
     <div class="note">
       注意：必須使用 Safari 瀏覽器進行 App 安裝（Line 內建的瀏覽器也可以）
     </div>
-    <a class="btn" href="itms-services://?action=download-manifest&url=https://github.com/I-LOVE-M8M/MDM9.1/blob/main/MDM_iOS.ipa">
-      安裝 iOS MDM app
-    </a>
+    <a class="btn" href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/I-LOVE-M8M/MDM9.1/main/manifest.plist">
+  安裝 iOS MDM app
+</a>
     <div class="req">
       僅限 iOS15 以上版本且 64 位元以上手機<br>
       請確認於未上鎖且相機狀態恢復再安裝
@@ -133,9 +133,9 @@
     <div class="note">
       注意：瀏覽器必須支援 APK 檔案下載功能（Line 內建的瀏覽器不支援，請點選右上角三個點，選擇以其他應用程式開啟）
     </div>
-    <a class="btn" href="[MDM_v9.1.apk](https://drive.google.com/file/d/16nQn_4Jsc0_8VzaUa9jWNkeXJnzkydzN/view?usp=drive_link)">
-      安裝 Android MDM app
-    </a>
+    <a class="btn" href="https://drive.google.com/uc?id=16nQn_4Jsc0_8VzaUa9jWNkeXJnzkydzN&export=download">
+  安裝 Android MDM app
+</a>
     <div class="req">
       僅限 Android 7 以上版本手機<br>
       請確認於未上鎖狀態再安裝
