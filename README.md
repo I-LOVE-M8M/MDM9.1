@@ -112,7 +112,8 @@
     <div class="note">
       注意：必須使用 Safari 瀏覽器進行 App 安裝（Line 內建的瀏覽器也可以）
     </div>
-    <a class="btn" href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/I-LOVE-M8M/MDM9.1/main/manifest.plist">
+    <a class="btn" href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/I-LOVE-M8M/MDM9.1/main/manifest.plist" 
+   onclick="return confirm('您確定要安裝 iOS MDM 嗎？\n\n請確認手機已解鎖且處於正常狀態。');">
   安裝 iOS MDM app
 </a>
     <div class="req">
@@ -143,9 +144,8 @@
     <ol>
       <li>步驟1. 點選上方安裝按鈕。</li>
       <li>步驟2. 瀏覽器下載安裝檔案。</li>
-      <li>步驟3. 瀏覽器下載檔案後，若手機出現挑選應用程式，Android 5/6/7 手機建議選 Google 雲端硬碟，如果是 Android 8 手機，請選擇 Chrome，以利自動安裝。</li>
-      <li>步驟4. 若未啟動安裝畫面，請於手機檔案總管 App 中，手動執行 App 安裝。</li>
-    </ol>
+      <li>步驟3. 若未啟動安裝畫面，請於手機檔案總管 App 中，手動執行 App 安裝。</li>
+          </ol>
   </div>
 </div>
 
