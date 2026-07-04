@@ -84,7 +84,7 @@
     <h2>Android MDM V9.10 版本公告</h2>
     <div class="update-log">
       <strong>更新重點 (115/06/29)：</strong><br>
-      • 版本號：9.10<br>
+      • 版本號：V9.10<br>
       • 預估流量：48.6MB<br>
       • 更新說明：更新憑證。
     </div>
