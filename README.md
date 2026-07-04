@@ -48,7 +48,7 @@
     </a>
     <div class="req">
       <strong>重要提示：</strong><br>
-      請確認手機未上鎖、相機功能恢復正常。更新後若無法開啟，請至「設定 > 一般 > VPN 與裝置管理」點選「信任」憑證。
+      更新後若無法開啟，請至「設定 > 一般 > VPN 與裝置管理」點選「信任」憑證。
     </div>
     <ol>
       <li>步驟1. 點選上方安裝按鈕。</li>
@@ -60,13 +60,19 @@
 
 <div class="panel" id="panel-android">
   <div class="card">
-    <h2>Android MDM V9.1 安裝網頁</h2>
+    <h2>Android MDM V9.10 版本公告</h2>
+    <div class="update-log">
+      <strong>更新重點 (115/06/29)：</strong><br>
+      • 版本號：9.10<br>
+      • 預估流量：48.6MB<br>
+      • 更新說明：更新憑證。
+    </div>
     <div class="note">
       注意：Line 內建瀏覽器不支援下載，請點擊右上角選擇「以其他應用程式開啟」或使用 Chrome。
     </div>
     <a class="btn" href="https://drive.google.com/uc?id=16nQn_4Jsc0_8VzaUa9jWNkeXJnzkydzN&export=download"
-       onclick="return confirm('您確定要下載 Android MDM V9.1 嗎？');">
-      安裝 Android MDM app
+       onclick="return confirm('您確定要下載 Android MDM V9.10 嗎？');">
+      安裝 Android MDM V9.10
     </a>
     <div class="req">
       僅限 Android 7 以上版本，請確保手機未上鎖。
