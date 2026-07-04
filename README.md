@@ -91,7 +91,7 @@
     <div class="note">
       注意：Line 內建瀏覽器不支援下載，請點擊右上角選擇「以其他應用程式開啟」或使用 Chrome。
     </div>
-    <a class="btn" href="https://github.com/I-LOVE-M8M/MDM9.1/releases/tag/MDM"
+    <a class="btn" href="https://github.com/I-LOVE-M8M/MDM9.1/releases/download/MDM/MDM_v9.1.apk"
        onclick="return confirm('您確定要下載 Android MDM V9.10 嗎？');">
       安裝 Android MDM V9.10
     </a>
