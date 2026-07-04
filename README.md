@@ -140,7 +140,7 @@
 
 <div style="max-width: 420px; margin: 0 auto; padding: 0 16px;">
   <a href="https://line.me/ti/g2/BnHmEdOyGNcMHEg1McYcarURsBXZTNq_9PSPDw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" 
-     class="btn" style="background: #06c755;">加入 MDM LINE 社群</a>
+     class="btn" style="background: #06c755;">加入 MDM LINE社群</a>
 </div>
 
 <script>
