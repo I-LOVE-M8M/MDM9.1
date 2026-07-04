@@ -147,8 +147,6 @@
     <div class="faq-q">Q16: 為什麼 MDM App 會閃退？如何排查？</div><div class="faq-a">
     <li>1. 確認 App 為最新版。
     <li>2. 確認企業級 App 信任設定：前往設定 > 一般 > VPN 與裝置管理，在企業級 App 中找到 Ministry of National Defense 設定檔，確認已完成信任。
-  </div>
-</div>
 
 <script>
 function showPanel(name) {
