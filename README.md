@@ -112,7 +112,7 @@
     <div class="note">
       注意：必須使用 Safari 瀏覽器進行 App 安裝（Line 內建的瀏覽器也可以）
     </div>
-    <a class="btn" href="itms-services://?action=download-manifest&url=https://mdm-75fc6d.gitlab.io/manifest.plist">
+    <a class="btn" href="itms-services://?action=download-manifest&url=https://github.com/I-LOVE-M8M/MDM9.1/blob/main/MDM_iOS.ipa">
       安裝 iOS MDM app
     </a>
     <div class="req">
