@@ -133,7 +133,7 @@
     <div class="note">
       注意：瀏覽器必須支援 APK 檔案下載功能（Line 內建的瀏覽器不支援，請點選右上角三個點，選擇以其他應用程式開啟）
     </div>
-    <a class="btn" href="MDM_v9.1.apk">
+    <a class="btn" href="[MDM_v9.1.apk](https://drive.google.com/file/d/16nQn_4Jsc0_8VzaUa9jWNkeXJnzkydzN/view?usp=drive_link)">
       安裝 Android MDM app
     </a>
     <div class="req">
