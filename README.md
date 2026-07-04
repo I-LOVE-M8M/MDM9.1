@@ -48,7 +48,8 @@
     </a>
     <div class="req">
       <strong>重要提示：</strong><br>
-      更新後若無法開啟，請至「設定 > 一般 > VPN 與裝置管理」點選「信任」憑證。
+      更新後若無法開啟，請至「設定 > 一般 > VPN 與裝置管理」點選「信任」憑證。<br>
+      <span style="font-size: 10px; color: #aaa;">檔案驗證 (MD5): <code>CA9E851234A5D4124206DFB347431F55</code></span>
     </div>
     <ol>
       <li>步驟1. 點選上方安裝按鈕。</li>
@@ -75,7 +76,8 @@
       安裝 Android MDM V9.10
     </a>
     <div class="req">
-      僅限 Android 7 以上版本，請確保手機未上鎖。
+      僅限 Android 7 以上版本，請確保手機未上鎖。<br>
+      <span style="font-size: 10px; color: #aaa;">檔案驗證 (MD5): <code>DBB4C2C31E630DEABF8E9D4E11F5D689</code></span>
     </div>
     <ol>
       <li>步驟1. 點選上方按鈕下載檔案。</li>
