@@ -5,96 +5,21 @@
 <title>MDM 安裝頁面</title>
 <style>
   * { box-sizing: border-box; }
-  body {
-    font-family: -apple-system, "Helvetica Neue", "PingFang TC", "Microsoft JhengHei", sans-serif;
-    background: #f5f5f7;
-    margin: 0;
-    padding: 24px 16px 60px;
-    color: #1d1d1f;
-  }
-  h1 {
-    font-size: 20px;
-    text-align: center;
-    margin: 0 0 20px;
-  }
-  .tabs {
-    display: flex;
-    background: #e5e5ea;
-    border-radius: 12px;
-    padding: 4px;
-    margin: 0 auto 24px;
-    max-width: 360px;
-  }
-  .tab {
-    flex: 1;
-    text-align: center;
-    padding: 10px 0;
-    font-size: 15px;
-    font-weight: 600;
-    color: #6e6e73;
-    border-radius: 9px;
-    cursor: pointer;
-    user-select: none;
-  }
-  .tab.active {
-    background: #fff;
-    color: #0071e3;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
-  }
-  .panel {
-    display: none;
-    max-width: 420px;
-    margin: 0 auto;
-  }
-  .panel.active {
-    display: block;
-  }
-  .card {
-    background: #fff;
-    border-radius: 14px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-  }
-  .card h2 {
-    font-size: 17px;
-    margin: 0 0 12px;
-  }
-  .note {
-    font-size: 13px;
-    color: #d9534f;
-    background: #fdecea;
-    border-radius: 8px;
-    padding: 10px 12px;
-    margin-bottom: 16px;
-    line-height: 1.5;
-  }
-  a.btn {
-    display: block;
-    text-align: center;
-    background: #0071e3;
-    color: #fff;
-    text-decoration: none;
-    padding: 14px;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 14px;
-  }
+  body { font-family: -apple-system, "Helvetica Neue", "PingFang TC", "Microsoft JhengHei", sans-serif; background: #f5f5f7; margin: 0; padding: 24px 16px 60px; color: #1d1d1f; }
+  h1 { font-size: 20px; text-align: center; margin: 0 0 20px; }
+  .tabs { display: flex; background: #e5e5ea; border-radius: 12px; padding: 4px; margin: 0 auto 24px; max-width: 360px; }
+  .tab { flex: 1; text-align: center; padding: 10px 0; font-size: 15px; font-weight: 600; color: #6e6e73; border-radius: 9px; cursor: pointer; user-select: none; }
+  .tab.active { background: #fff; color: #0071e3; box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+  .panel { display: none; max-width: 420px; margin: 0 auto; }
+  .panel.active { display: block; }
+  .card { background: #fff; border-radius: 14px; padding: 20px; margin-bottom: 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  .card h2 { font-size: 17px; margin: 0 0 12px; }
+  .note { font-size: 13px; color: #d9534f; background: #fdecea; border-radius: 8px; padding: 10px 12px; margin-bottom: 16px; line-height: 1.5; }
+  .update-log { font-size: 13px; color: #0066cc; background: #eef7ff; border-radius: 8px; padding: 10px 12px; margin-bottom: 16px; line-height: 1.5; }
+  a.btn { display: block; text-align: center; background: #0071e3; color: #fff; text-decoration: none; padding: 14px; border-radius: 10px; font-size: 16px; font-weight: 600; margin-bottom: 14px; }
   a.btn:active { opacity: 0.8; }
-  .req {
-    font-size: 13px;
-    color: #6e6e73;
-    margin-bottom: 16px;
-    line-height: 1.6;
-  }
-  ol {
-    font-size: 13px;
-    color: #444;
-    padding-left: 20px;
-    line-height: 1.8;
-    margin: 0;
-  }
+  .req { font-size: 13px; color: #6e6e73; margin-bottom: 16px; line-height: 1.6; }
+  ol { font-size: 13px; color: #444; padding-left: 20px; line-height: 1.8; margin: 0; }
 </style>
 </head>
 <body>
@@ -108,22 +33,27 @@
 
 <div class="panel active" id="panel-ios">
   <div class="card">
-    <h2>iOS MDM V9.1 安裝網頁</h2>
-    <div class="note">
-      注意：必須使用 Safari 瀏覽器進行 App 安裝（Line 內建的瀏覽器也可以）
+    <h2>iOS MDM V9.10 版本公告</h2>
+    <div class="update-log">
+      <strong>更新重點 (115/06/29)：</strong><br>
+      • 更新憑證簽章與版本檢查提醒。<br>
+      • 最低支援 iOS 15。
     </div>
-    <a class="btn" href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/I-LOVE-M8M/MDM9.1/main/manifest.plist" 
-   onclick="return confirm('您確定要安裝 iOS MDM 嗎？\n\n請確認手機已解鎖且處於正常狀態。');">
-  安裝 iOS MDM app
-</a>
+    <div class="note">
+      注意：必須使用 Safari 瀏覽器進行安裝，請於「離營解鎖」狀態下更新。
+    </div>
+    <a class="btn" href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/I-LOVE-M8M/MDM9.1/main/manifest.plist"
+       onclick="return confirm('您確認已於「離營解鎖」狀態，且相機功能正常嗎？\n點選確定開始安裝 V9.10 更新。');">
+      安裝 iOS MDM V9.10
+    </a>
     <div class="req">
-      僅限 iOS15 以上版本且 64 位元以上手機<br>
-      請確認於未上鎖且相機狀態恢復再安裝
+      <strong>重要提示：</strong><br>
+      請確認手機未上鎖、相機功能恢復正常。更新後若無法開啟，請至「設定 > 一般 > VPN 與裝置管理」點選「信任」憑證。
     </div>
     <ol>
       <li>步驟1. 點選上方安裝按鈕。</li>
-      <li>步驟2. 跳出安裝訊息後，點選「安裝」按鈕。</li>
-      <li>步驟3. 按 HOME 鍵回至手機畫面，檢查 App 安裝完成。</li>
+      <li>步驟2. 跳出安裝訊息後，點選「安裝」。</li>
+      <li>步驟3. 若無法開啟，請前往「設定 > 一般 > VPN 與裝置管理」信任該企業憑證。</li>
     </ol>
   </div>
 </div>
@@ -132,20 +62,20 @@
   <div class="card">
     <h2>Android MDM V9.1 安裝網頁</h2>
     <div class="note">
-      注意：瀏覽器必須支援 APK 檔案下載功能（Line 內建的瀏覽器不支援，請點選右上角三個點，選擇以其他應用程式開啟）
+      注意：Line 內建瀏覽器不支援下載，請點擊右上角選擇「以其他應用程式開啟」或使用 Chrome。
     </div>
-    <a class="btn" href="https://drive.google.com/uc?id=16nQn_4Jsc0_8VzaUa9jWNkeXJnzkydzN&export=download">
-  安裝 Android MDM app
-</a>
+    <a class="btn" href="https://drive.google.com/uc?id=16nQn_4Jsc0_8VzaUa9jWNkeXJnzkydzN&export=download"
+       onclick="return confirm('您確定要下載 Android MDM V9.1 嗎？');">
+      安裝 Android MDM app
+    </a>
     <div class="req">
-      僅限 Android 7 以上版本手機<br>
-      請確認於未上鎖狀態再安裝
+      僅限 Android 7 以上版本，請確保手機未上鎖。
     </div>
     <ol>
-      <li>步驟1. 點選上方安裝按鈕。</li>
-      <li>步驟2. 瀏覽器下載安裝檔案。</li>
-      <li>步驟3. 若未啟動安裝畫面，請於手機檔案總管 App 中，手動執行 App 安裝。</li>
-          </ol>
+      <li>步驟1. 點選上方按鈕下載檔案。</li>
+      <li>步驟2. 若跳出「安全性設定」，請勾選「允許來自此來源的安裝」。</li>
+      <li>步驟3. 安裝完成後即可啟動。</li>
+    </ol>
   </div>
 </div>
 
@@ -155,7 +85,6 @@ function showPanel(name) {
   document.getElementById('panel-android').classList.remove('active');
   document.getElementById('tab-ios').classList.remove('active');
   document.getElementById('tab-android').classList.remove('active');
-
   document.getElementById('panel-' + name).classList.add('active');
   document.getElementById('tab-' + name).classList.add('active');
 }
