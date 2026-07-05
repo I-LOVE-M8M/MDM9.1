@@ -163,15 +163,20 @@ function showPanel(name) {
   document.getElementById('tab-' + name).classList.add('active');
 }
 
-// 簡單的裝置相容性檢測
+// 修正後的裝置相容性檢測邏輯
 const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
 const isAndroid = /Android/.test(navigator.userAgent);
 
 if (isIOS) {
+    // 如果是用戶是 iOS，則顯示「Android 警告」提示（因為他在看 Android 頁面時會看到）
+    document.getElementById('ios-warning').style.display = 'none';
     document.getElementById('android-warning').style.display = 'block';
 } else if (isAndroid) {
+    // 如果是用戶是 Android，則顯示「iOS 警告」提示
     document.getElementById('ios-warning').style.display = 'block';
+    document.getElementById('android-warning').style.display = 'none';
 }
+
 </script>
 
 </body>
